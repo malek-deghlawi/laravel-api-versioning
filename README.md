@@ -222,7 +222,15 @@ php artisan api:alerts
 ```
 vendor/bin/phpunit
 ```
+## Roadmap
 
+- Database persistence driver
+- Slack / email alert integration
+- Prometheus metrics exporter
+- OpenAPI compatibility
+- Sunset enforcement mode
+
+Admin dashboard
 ## Contributing
 
 - Fork repository
