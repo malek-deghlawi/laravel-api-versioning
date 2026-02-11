@@ -1,0 +1,39 @@
+{
+    "name": "malek/laravel-api-versioning",
+    "description": "Opinionated API versioning, deprecation lifecycle, usage tracking and alerts for Laravel",
+    "keywords": [
+      "laravel",
+      "api-versioning",
+      "api-deprecation",
+      "laravel-package",
+      "rest-api"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+      "php": "^8.1",
+      "illuminate/support": "^10.0|^11.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Malek\\ApiVersioning\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Malek\\ApiVersioning\\Tests\\": "tests/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Malek\\ApiVersioning\\ApiVersioningServiceProvider"
+        ],
+        "aliases": {
+          "ApiRoute": "Malek\\ApiVersioning\\Facades\\ApiRoute"
+        }
+      }
+    },
+    "minimum-stability": "stable"
+  }
+  
